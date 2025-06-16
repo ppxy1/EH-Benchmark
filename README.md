@@ -1,4 +1,4 @@
 # EH-Benchmark
-EH-Benchmark: Grading Hallucination Across Task Granularities in Eye Disease Based on Multi-Agent Framework.
+EH-Benchmark: Ophthalmic Hallucination Benchmark and Agent-Driven Top-Down Traceable Reasoning Workflow
 
 The whole code will be published soon.
