@@ -67,9 +67,9 @@ class OCTSegmentationTool(BaseTool):
         self,
         device: Optional[str] = "cuda",
         temp_dir: Optional[Path] = Path("temp"),
-        choroid_model_weights: Optional[str] = "/raid/baiyang/xiaoyu/fundusagent/tools/pth/choroid_Net_epoch_best.pth",
-        retina_model_weights: Optional[str] = "/raid/baiyang/xiaoyu/fundusagent/tools/pth/retina_Net_epoch_best.pth",
-        mh_model_weights: Optional[str] = "/raid/baiyang/xiaoyu/fundusagent/tools/pth/mh_Net_epoch_best.pth"
+        choroid_model_weights: Optional[str] = "tools/pth/choroid_Net_epoch_best.pth",
+        retina_model_weights: Optional[str] = "tools/pth/retina_Net_epoch_best.pth",
+        mh_model_weights: Optional[str] = "tools/pth/mh_Net_epoch_best.pth"
     ):
         """Initialize the segmentation tool with U-Net++ models and temporary directory."""
         super().__init__()
