@@ -52,7 +52,7 @@ class DR_ClassifierTool(BaseTool):
         self.model.to(self.device)
         self.model.eval()
 
-        checkpoint_path = "/raid/baiyang/xiaoyu/fundusagent/tools/pth/DR-Grade.bin"
+        checkpoint_path = "tools/pth/DR-Grade.bin"
         try:
             if not os.path.exists(checkpoint_path):
                 raise FileNotFoundError(f"Model weights file not found at {checkpoint_path}")
